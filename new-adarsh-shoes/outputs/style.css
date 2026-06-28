@@ -21,9 +21,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   color: var(--text);
-  background:
-    linear-gradient(180deg, rgba(245, 238, 230, 0.9), rgba(244, 239, 232, 0.96)),
-    url("file:///Users/ranveerganeshgadkari/Downloads/pexels-jinshu-pulpatta-2151876856-33812005.jpg") center/cover fixed no-repeat;
+  background: linear-gradient(180deg, rgba(245, 238, 230, 0.9), rgba(244, 239, 232, 0.96));
 }
 
 .page {
@@ -95,8 +93,8 @@ body {
   align-content: center;
   padding: clamp(28px, 5vw, 56px);
   background:
-    linear-gradient(180deg, rgba(34, 25, 18, 0.55), rgba(34, 25, 18, 0.35)),
-    url("file:///Users/ranveerganeshgadkari/Downloads/pexels-jinshu-pulpatta-2151876856-33812005.jpg") center center / cover no-repeat;
+    linear-gradient(180deg, rgba(18, 12, 8, 0.7), rgba(18, 12, 8, 0.45)),
+    url("images/hero-background.jpg") center center / cover no-repeat;
   color: #fff7ef;
 }
 
@@ -132,8 +130,8 @@ h1 {
   font-size: clamp(2.5rem, 6vw, 4.9rem);
   line-height: 0.98;
   letter-spacing: -0.04em;
-  color: #000000;
-  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.35);
+  color: #fff7ef;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.45);
 }
 
 .intro p {
